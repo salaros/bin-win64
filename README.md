@@ -1,3 +1,5 @@
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/salaros/bin-win64/development/install.ps1'))
+
 |     Tool    |   Version   |   Download   |
 |    :----:   |     :----:   |    :----:   |
 |     dapr    |    1.13.0   | [Dapr](https://github.com/dapr/cli/releases) |
