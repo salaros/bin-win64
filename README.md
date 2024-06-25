@@ -1,4 +1,10 @@
+## Installation
+
+```powershell
 iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/salaros/bin-win64/development/install.ps1'))
+```
+
+## Versions
 
 |     Tool    |   Version   |   Download   |
 |    :----:   |     :----:   |    :----:   |
