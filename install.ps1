@@ -1,3 +1,10 @@
+# Pre-create .bin dir
+$binDir = "$env:userprofile\.bin"
+If(!(test-path -PathType container $binDir))
+{
+      New-Item -ItemType Directory -Path $binDir
+}
+
 # Donwload a fresh version of the binaries
 Invoke-WebRequest 'https://github.com/salaros/bin-win64/archive/refs/heads/development.zip' -OutFile $env:Temp\bin-win64.zip
 
